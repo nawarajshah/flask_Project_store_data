@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data and Validation in Flask</title>
+</head>
+<body>
+    <h1>Submit your data</h1>
+    <form action="/submit" method="POST">
+          <label>
+              Username:
+              <input type="text" id="username" name="username">
+          </label>
+          <br>
+          <label>
+              Email:
+              <input type="email" id="email" name="email">
+          </label>
+          <br>
+          <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
